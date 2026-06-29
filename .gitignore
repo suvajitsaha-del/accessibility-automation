@@ -1,0 +1,15 @@
+node_modules
+dist
+reports
+
+# Playwright
+test-results
+playwright-report
+blob-report
+.cache
+
+# OS / IDE
+.DS_Store
+.idea
+.vscode
+*.log

@@ -1,0 +1,23 @@
+{
+  "name": "accessibility-automation",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Config-driven accessibility automation POC (Playwright + axe-core), initially for GO Transit",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test:a11y": "playwright test",
+    "test:a11y:chromium": "playwright test --project=chromium",
+    "test:a11y:headed": "playwright test --headed",
+    "pw:install": "playwright install --with-deps",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.9.1",
+    "@playwright/test": "1.44.1",
+    "axe-core": "4.9.1",
+    "typescript": "5.4.5",
+    "zod": "3.23.8",
+    "@types/node": "20.12.12"
+  }
+}
