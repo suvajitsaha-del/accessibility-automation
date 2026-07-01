@@ -1,4 +1,5 @@
 // config/report.config.ts
+// Output format toggles
 import type { ReportConfig } from '../src/contracts/config.types';
 
 export const reportConfig: ReportConfig = {

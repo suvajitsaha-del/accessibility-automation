@@ -1,4 +1,5 @@
 // config/accessibility.config.ts
+//	WCAG version, rule exclusions
 import { EXCLUDED_TAGS } from '../src/config/wcag-tags';
 import type { AccessibilityConfig } from '../src/contracts/config.types';
 

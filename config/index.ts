@@ -1,4 +1,5 @@
 // config/index.ts
+// Merges + validates all config
 import { z } from 'zod';
 
 import { accessibilityConfig } from './accessibility.config';

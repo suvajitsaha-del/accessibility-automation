@@ -1,4 +1,5 @@
 // config/execution.config.ts
+//Browser, timeouts, throttle
 import type { ExecutionConfig } from '../src/contracts/config.types';
 
 export const executionConfig: ExecutionConfig = {

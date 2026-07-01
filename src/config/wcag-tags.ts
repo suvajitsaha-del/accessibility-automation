@@ -18,6 +18,7 @@
  * Supported WCAG conformance levels for this framework.
  * Switchable via config/a11y.config.ts → wcagVersion.
  */
+//Maps WCAG version → axe tags
 export type WcagVersion = 'wcag21aa' | 'wcag22aa';
 
 /**
